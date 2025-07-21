@@ -1,0 +1,70 @@
+QPushButton#button_login
+{
+    border-radius:5px;
+    background-color:rgba(5,187,251,255);
+    border-style: outset;
+    border-color: beige;
+    border-radius: 10px;
+}
+
+/* hover按钮悬浮 */
+ QPushButton#button_login:hover
+{
+    background-color: #1a68e6;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+ /* 鼠标按下按钮时的状态 */
+QPushButton#button_login:pressed
+{
+background-color: #1557c0;
+}
+QLabel#label_head
+{
+border-image: url(:/res/qqhead.png);
+min-width : 60px; /* 最小宽度 */
+min-height : 60px; /* 最小高度 */
+max-width : 60px; /* 最大宽度 */
+max-height : 60px; /* 最大高度 */
+background-position: center;  /*居中显示 */
+border-color: rgb(255, 255, 255);
+}
+
+QLineEdit#password,QComboBox
+{
+border-style:solid;
+border-width:1px;
+border-top-color: rgba(255, 255, 255, 0);
+border-right-color: rgba(255, 255, 255, 0);
+border-left-color: rgba(255, 255, 255, 0);
+border-bottom-color: rgb(129, 129, 129);
+}
+
+QLabel#regist_top
+{
+border-image: url(:/res/computer2.png);
+}
+
+QPushButton#pushButton_min
+{
+border-image: url(:/res/min.png);
+
+}
+
+QPushButton#pushButton_exit
+{
+border-image: url(:/res/close.png);
+
+}
+
+QPushButton#pushButton_min:hover
+{
+background-color: #e5e5e5;
+
+}
+
+QPushButton#pushButton_exit:hover
+{
+background-color: #e81123;
+}

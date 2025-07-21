@@ -1,0 +1,137 @@
+QMenu::item:selected
+{
+background-color:#ff0000;
+}
+
+QMenuBar
+{
+background-color:#ee00ff
+}
+
+QLabel#main_head
+{
+border-image: url(:/res/qqhead.png);
+}
+
+QGroupBox {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                              stop:0 #3498db, stop:1 #2980b9);
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    margin-top: 1.5ex;
+    padding: 10px;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 15px;
+    padding: 0 5px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+QPushButton#pushButton,#pushButton_2,#pushButton_3,#pushButton_4
+{
+border: none;
+}
+
+QWidget#widget
+{
+background-color: #f9f5ff;
+
+}
+
+QWidget#widget_top
+{
+background-color: #f9f5ff;
+}
+
+QWidget#widget_left
+{
+background-color: #17b0ff;
+}
+
+QWidget#widget_mid
+{
+background-color: #ecf4ff;
+}
+
+QPlainTextEdit
+{
+background-color: #f9f5ff;
+border-style: solid; /* 边框样式 */
+border-width: 1px; /* 边框宽度 */
+border-top-color: #f9f5ff;
+border-right-color: #f9f5ff;
+border-left-color: #f9f5ff;
+border-bottom-color: #e9e8f0;
+}
+
+QListWidget
+{
+background-color: #ecf4ff;
+border: none;
+outline: 0;
+}
+
+QTextEdit
+{
+background-color: #f9f5ff;
+border: none;
+font-family: "微软雅黑";
+font-size: 14px;
+}
+
+
+
+QPushButton#pushButton_min
+{
+border-image: url(:/res/min.png);
+
+}
+
+QPushButton#pushButton_exit
+{
+border-image: url(:/res/close.png);
+
+}
+QPushButton#sendToolBtn
+{
+border-image: url(:/res/tfile.png);
+}
+QPushButton#pushButton_clear
+{
+border-image: url(:/res/clear.png);
+}
+QPushButton#pushButton_min:hover,#sendToolBtn:hover,#pushButton_clear:hover
+{
+background-color: #e5e5e5;
+
+}
+
+QPushButton#pushButton_exit:hover
+{
+background-color: #e81123;
+}
+
+
+
+
+
+QLabel#label_mid,QLabel#label_right
+{
+border-style: solid; /* 边框样式 */
+border-width: 1px; /* 边框宽度 */
+border-top-color: #f9f5ff;
+border-right-color: #f9f5ff;
+border-left-color: #f9f5ff;
+border-bottom-color: #e9e8f0;
+}
+
+QScrollBar:vertical
+{
+/*       border: none;*/
+       background: transparent;
+       width: 6px;
+}

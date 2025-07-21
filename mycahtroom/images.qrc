@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/myicon.ico</file>
+        <file>res/chat.ico</file>
+        <file>res/group.png</file>
+        <file>res/login.ico</file>
+        <file>res/register.ico</file>
+        <file>interface/interface_log.qss</file>
+        <file>res/label_gif.gif</file>
+        <file>interface/interfae_main.qss</file>
+        <file>res/curecol.jpg</file>
+        <file>res/computer2.png</file>
+        <file>res/close.png</file>
+        <file>res/min.png</file>
+        <file>res/clear.png</file>
+        <file>res/tfile.png</file>
+        <file>res/qqhead.png</file>
+    </qresource>
+</RCC>
